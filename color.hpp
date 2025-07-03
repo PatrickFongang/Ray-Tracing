@@ -1,7 +1,7 @@
 #pragma once
 
 #include "rtweekend.hpp"
-
+#include "ray.hpp"
 using color = vec3;
 
 void write_color(std::ostream& out, const color& pixel_color){
